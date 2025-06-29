@@ -425,12 +425,16 @@ img {
 
 .skills-blob {
   width: 90px;
-  height: 110px;
-  background-color: var(--container-color);
+  height: 90px;
+  /* background-color: var(--container-color); */
   border-radius: 3rem;
   display: grid;
   place-items: center;
   margin-inline: auto;
+}
+
+.skills-blob:hover {
+  background: var(--second-gradient);
 }
 
 .skills-img {
